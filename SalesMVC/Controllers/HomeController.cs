@@ -18,8 +18,10 @@ namespace SalesMVC.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
         {
+            ViewData["nome"] = "Victor Lourenço";
+            ViewData["email"] = "victor@gmail.com";
             return View();
         }
 
